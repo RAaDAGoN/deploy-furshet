@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/MontserratAlternates-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Стилизация скроллбара */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Для Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+/* Основной контент */
+html {
+    overflow-y: scroll; /* Всегда показывать скроллбар */
+}
+
+body {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Контейнер основного контента */
+.main-container {
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
