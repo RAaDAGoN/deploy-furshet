@@ -17,7 +17,7 @@ services:
 
   frontend:
     build:
-      context: ../furshet
+      context: ./furshet
       dockerfile: dockerfile
     networks:
       - dev
