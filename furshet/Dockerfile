@@ -4,6 +4,8 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
+ENV VITE_DEVTOOLS=false
+ENV NODE_OPTIONS="--disable-dev-tools"
 RUN npm run build
 
 FROM nginx:stable-alpine
