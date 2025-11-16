@@ -12,14 +12,14 @@ export default {
                 comfort: ['Comfortaa', 'sans-serif'],
 
             },
-
+            screens: {
+                'sm': '380px',
+                'md': '768px',
+                'lg': '1024px',
+                'xl': '1440px',
+            }
         },
-        screens: {
-            sm: '380px',
-            md: '768px',
-            lg: '1024px',
-            xl: '1440px',
-        }
+
     },
     plugins: [],
 }
