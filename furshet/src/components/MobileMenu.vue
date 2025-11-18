@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#97AB94] h-full w-full fixed right-0 top-14 z-20  text-white flex flex-col items-center" v-auto-animate>
 
-    <ul class="max-w-[1746px] mx-auto flex items-center justify-center gap-2 text-sm sm:text-lg w-full font-montserrat font-normal mt-3">
+    <ul class="max-w-[1746px] mx-auto flex items-center justify-center gap-9 text-[12px] md:text-lg w-full font-montserrat font-normal mt-3">
       <li>Вологда</li>
       <li>+7 (817) 393-47-47</li>
       <li>Ежедневно 24/7</li>

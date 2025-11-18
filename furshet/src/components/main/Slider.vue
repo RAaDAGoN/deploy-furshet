@@ -20,12 +20,12 @@
     <div class="absolute inset-0 bg-black/30"></div>
 
     <!-- Контент -->
-    <div class="max-w-[1746px] mx-auto relative z-10 flex items-end sm:items-center h-full px-5 sm:px-5 ">
+    <div class="max-w-[1746px] mx-auto relative z-10 flex items-end md:items-center h-full px-5 sm:px-5 ">
       <div class="max-w-[1020px]">
-        <h1 class="text-white text-left text-2xl sm:text-[55px] font-comfort font-semibold mb-6 leading-[110%]">
+        <h1 class="text-white text-left text-2xl md:text-[55px] font-comfort font-semibold mb-6 leading-[110%]">
           Фуршетный мастер — ваш надежный партнер в организации мероприятий!
         </h1>
-        <p class="text-white text-[16px] sm:text-2xl font-medium font-montserrat leading-[130%]">
+        <p class="text-white text-[16px] md:text-2xl font-medium font-montserrat leading-[130%]">
           Мы знаем, как важно, чтобы ваше мероприятие прошло на высшем уровне. Именно поэтому я предлагаю профессиональные услуги по организации фуршетов, которые сделают ваш праздник незабываемым.
         </p>
       </div>

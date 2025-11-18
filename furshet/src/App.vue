@@ -5,7 +5,10 @@
 
     <Header :menuOpen="menuOpen" @openMenu="openMenu" @closeMenu="closeMenu"/>
 
-    <router-view></router-view>
+    <div class="">
+      <router-view></router-view>
+    </div>
+
 
   </div>
 </template>
