@@ -1,7 +1,7 @@
 <template>
-  <MobileMenu v-if="menuOpen" @closeMenu="closeMenu"/>
+  <MobileMenu v-if="menuOpen" @closeMenu="closeMenu" v-auto-animate/>
 
-  <div class="main-container">
+  <div class="main-container" >
 
     <Header :menuOpen="menuOpen" @openMenu="openMenu" @closeMenu="closeMenu"/>
 

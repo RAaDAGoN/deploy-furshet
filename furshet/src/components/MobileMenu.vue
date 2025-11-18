@@ -1,12 +1,7 @@
 <template>
-<!--  <div class="fixed top-0 left-0 h-full w-full bg-black z-10 opacity-65">-->
+  <div class="bg-[#97AB94] h-full w-full fixed right-0 top-14 z-20  text-white flex flex-col items-center" v-auto-animate>
 
-<!--  </div>-->
-
-  <div class="bg-[#97AB94] w-full h-full fixed right-0 top-14 z-20 p-10 text-white flex flex-col items-center">
-    <h1 class="cursor-pointer " @click="()=> emit('closeMenu')">Закрыть</h1>
-
-    <ul class="max-w-[1755px] mx-auto flex items-center justify-center sm:justify-end gap-12  text-base sm:text-lg w-full font-montserrat font-normal mt-3">
+    <ul class="max-w-[1746px] mx-auto flex items-center justify-center gap-2 text-sm sm:text-lg w-full font-montserrat font-normal mt-3">
       <li>Вологда</li>
       <li>+7 (817) 393-47-47</li>
       <li>Ежедневно 24/7</li>
@@ -19,13 +14,11 @@
       <li>Контакты</li>
     </ul>
 
-    <Button class="mt-12" title="Заказать звонок"/>
   </div>
 </template>
 
 <script setup>
 import Button from "@/components/ui/Button.vue";
-
 
 
 const emit = defineEmits(["closeMenu"]);

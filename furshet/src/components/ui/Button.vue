@@ -1,5 +1,11 @@
 <template>
-  <button class="bg-white w-[298px] h-[60px] cursor-pointer font-montserrat font-semibold text-[#608067]">
+  <button class="bg-white text-[#608067] font-montserrat font-semibold cursor-pointer
+      px-6 py-3
+      text-sm
+      sm:text-xs
+      md:text-base
+      md:px-1 md:py-4
+      lg:px-8 ">
     {{ title }}
   </button>
 </template>
