@@ -1,116 +1,116 @@
 <template>
-  <footer class="max-w-[1746px] mx-auto ">
-    <!-- Первая линия-->
-    <div class="relative w-full h-[100vh] ">
-      <!-- Основной контейнер изображения -->
-      <picture class="absolute inset-0 ">
-<!--        Мобильная картинка-->
-        <source srcset="/image/FooterMobile.png" media="(max-width: 640px)"/>
+  <div class="relative w-full bg-[url(/image/FooterMobile.png)]
+         md:bg-[url(/image/Food2.png)] bg-cover bg-top bg-no-repeat overflow-hidden" >
+    <!-- затемнение -->
+    <div class="absolute inset-0 bg-black/30"></div>
 
-        <img
-            src="/image/Food2.png"
-            alt="Slide 1"
-            class="w-full h-full"
-        />
-      </picture>
+    <!-- контент -->
+    <div class="relative z-10 max-w-[1746px] mx-auto px-4 md:px-8 h-full flex ">
+      <div class="py-5">
+        <h1 class="text-white text-[22px] md:text-[45px] font-comfort font-bold mb-2 md:mb-6 leading-[130%]">
+          Важное событие,<br class="hidden md:block" />
+          но не знаете как рассчитать?
+        </h1>
 
-      <!-- Затемнение -->
-      <div class="absolute inset-0 bg-black/30"></div>
+        <p class="text-white text-base md:text-2xl font-medium font-montserrat leading-[130%]">
+          Заполните заявку и мы поможем рассчитать<br />меню для вашего мероприятия
+        </p>
 
-      <!-- Контент -->
-      <div class="relative flex items-center px-5 sm:px-5 pt-5">
-        <div class="md:max-w-[844px]">
-          <h1 class="text-white text-left text-xl md:text-[45px] font-comfort font-bold mb-2 md:mb-6 leading-[140%]">
-            Важное событие,<br/>
-            но не знаете как рассчитать?
-          </h1>
-          <p class="text-white text-base md:text-2xl font-medium font-montserrat leading-[140%]">
-            Заполните заявку и мы поможем рассчитать<br/>меню для вашего мероприятия
-          </p>
+        <form class="font-montserrat mt-[40px] ">
+          <div class="flex flex-col md:flex-row gap-7 mb-[30px] text-[16px] md:text-[18px]">
+            <input
+                name="userName"
+                class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
+                placeholder="Ваше имя" type="text"
+            />
+            <input
+                name="userPhone"
+                class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
+                placeholder="Телефон" type="text"
+            />
+          </div>
 
-          <form class="font-montserrat mt-[40px]" action="">
-            <div class="flex flex-col md:flex-row gap-7 mb-[30px]">
-              <input name="userName"
-                     class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
-                     placeholder="Ваше имя" type="text">
-              <input name="userPhone"
-                     class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
-                     placeholder="Телефон" type="text">
-            </div>
-            <div class="flex flex-col md:flex-row gap-7">
-              <input name="userCount"
-                     class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
-                     placeholder="Количество человек" type="text">
-              <input name="userDate"
-                     class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
-                     placeholder="Дата" type="text">
-            </div>
-          </form>
+          <div class="flex flex-col md:flex-row gap-7">
+            <input
+                name="userCount"
+                class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
+                placeholder="Количество человек" type="text"
+            />
+            <input
+                name="userDate"
+                class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
+                placeholder="Дата" type="text"
+            />
+          </div>
+        </form>
 
-          <Button class="mt-10" title="Отправить заявку"/>
-
-        </div>
+        <Button class="mt-10" title="Отправить заявку" />
       </div>
     </div>
+  </div>
 
 
+  <!-- ===== FOOTER BOTTOM ===== -->
+  <div class="bg-[#303030]">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 px-5 py-[60px] max-w-[1746px] mx-auto">
 
-    <!--    Вторая линия-->
-    <div class="bg-[#303030]">
-      <div class="flex flex-col md:flex-row justify-between px-5 py-[60px]">
-        <div class="font-montserrat">
-          <h1 class="text-[55px] font-semibold text-white">Фуршет</h1>
-          <div class="flex flex-col gap-5 mb-9">
-            <p class="text-[22px] text-white">г. Вологда, ул. Фуршетная</p>
-            <p class="text-[18px] text-[#595959]">Ежедневно 24/7 </p>
-            <p class="text-[18px] text-[#595959]">Поддержка с 10:00 до 21:00</p>
-          </div>
+      <!-- контакты -->
+      <div class="font-montserrat">
+        <h1 class="text-[55px] font-semibold text-white">Фуршет</h1>
 
-
-          <div class="hidden md:flex gap-4">
-            <img src="/image/icons/VK.png" alt="">
-            <img src="/image/icons/Odnokl.png" alt="">
-            <img src="/image/icons/Dzen.png" alt="">
-            <img src="/image/icons/Telegram.png" alt="">
-            <img src="/image/icons/Watsup.png" alt="">
-            <img src="/image/icons/Wiber.png" alt="">
-          </div>
+        <div class="flex flex-col gap-5 mb-9 text-white">
+          <p class="text-[22px]">г. Вологда, ул. Фуршетная</p>
+          <p class="text-[18px] text-[#595959]">Ежедневно 24/7</p>
+          <p class="text-[18px] text-[#595959]">Поддержка с 10:00 до 21:00</p>
         </div>
 
-        <div>
-          <ul class="hidden md:flex font-montserrat text-[#F4F6FB] flex-col gap-6">
-            <li>О нас</li>
-            <li>Меню</li>
-            <li>Доставка</li>
-            <li>Контакты</li>
-            <li>Корзина</li>
+        <div class="hidden md:flex gap-4 items-center">
+          <img src="/image/icons/VK.png" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/Odnokl.png" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/Dzen.png" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/Telegram.png" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/Watsup.png" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/Wiber.png" class="w-8 h-8 object-contain" />
+        </div>
+      </div>
+
+      <!-- меню -->
+      <nav>
+        <ul class="hidden md:flex flex-col gap-6 text-[#F4F6FB] font-montserrat">
+          <li>О нас</li>
+          <li>Меню</li>
+          <li>Доставка</li>
+          <li>Контакты</li>
+          <li>Корзина</li>
+        </ul>
+      </nav>
+
+      <!-- помощь -->
+      <div class="font-montserrat text-[#595959]">
+        <h1 class="text-xl w-full border-b border-[#5F6577] mb-2 pb-2 text-white">Помощь</h1>
+
+        <div class="flex flex-col gap-7 md:flex-row justify-between">
+          <ul class="flex flex-col gap-4">
+            <li>Оплата</li>
+            <li>Гарантия качества</li>
+            <li>Возврат товара</li>
+          </ul>
+
+          <ul class="flex flex-col gap-4">
+            <li>Персональные данные</li>
+            <li>Конфиденциальность</li>
+            <li>Публичная оферта</li>
           </ul>
         </div>
-
-        <div class="font-montserrat text-[#595959] ">
-          <h1 class="text-xl w-full border-b text-white border-[#5F6577] mb-2 pb-2">Помощь</h1>
-          <div class="flex flex-col gap-4 md:gap-7 md:flex-row justify-between font-montserrat text-[#595959]">
-            <ul class=" flex flex-col gap-4">
-              <li>Оплата</li>
-              <li>Гарантия качества</li>
-              <li>Возврат товара</li>
-            </ul>
-
-            <ul class="flex flex-col gap-4">
-              <li>Персональные данные</li>
-              <li>Конфиденциальность</li>
-              <li>Публичная оферта</li>
-            </ul>
-          </div>
-        </div>
-        <div class="font-montserrat text-white text-lg md:text-2xl mt-5">
-          <h1 class="mb-3">+7 (817) 393-47-47</h1>
-          <h1>furshet@gmail.com</h1>
-        </div>
       </div>
 
+      <!-- телефон -->
+      <div class="font-montserrat text-white text-lg md:text-2xl">
+        <h1 class="mb-3">+7 (817) 393-47-47</h1>
+        <h1>furshet@gmail.com</h1>
+      </div>
     </div>
-  </footer>
+  </div>
 
 
 </template>
