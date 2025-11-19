@@ -17,10 +17,10 @@
     </picture>
 
     <!-- Затемнение -->
-    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="absolute z-30 inset-0 bg-black/30"></div>
 
     <!-- Контент -->
-    <div class="max-w-[1746px] mx-auto relative z-10 flex items-end md:items-center h-full px-5 sm:px-5 ">
+    <div class="max-w-[1746px] mx-auto relative z-40 flex items-end md:items-center h-full px-5 sm:px-5 pb-5">
       <div class="max-w-[1020px]">
         <h1 class="text-white text-left text-2xl md:text-[55px] font-comfort font-semibold mb-6 leading-[110%]">
           Фуршетный мастер — ваш надежный партнер в организации мероприятий!
