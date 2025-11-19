@@ -1,6 +1,6 @@
 <template>
-  <div class="relative w-full bg-[url(/image/FooterMobile.png)]
-         md:bg-[url(/image/Food2.png)] bg-cover bg-top bg-no-repeat overflow-hidden" >
+  <div class="relative w-full bg-[url(/image/FooterMobile.png)] bg-cover bg-no-repeat bg-center aspect-[380/665] max-w-[380px] mx-auto md:bg-[url(/image/Food2.png)] md:max-w-none md:aspect-auto md:h-auto
+               mt-12 md:mt-28 pt-5 md:pt-[55px] pb-16" >
     <!-- затемнение -->
     <div class="absolute inset-0 bg-black/30"></div>
 
@@ -17,7 +17,7 @@
         </p>
 
         <form class="font-montserrat mt-[40px] ">
-          <div class="flex flex-col md:flex-row gap-7 mb-[30px] text-[16px] md:text-[18px]">
+          <div class="flex flex-col md:flex-row gap-5 mb-[30px] text-[16px] md:text-[18px]">
             <input
                 name="userName"
                 class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
@@ -44,7 +44,7 @@
           </div>
         </form>
 
-        <Button class="mt-10" title="Отправить заявку" />
+        <Button class="mt-10 " title="Отправить заявку" />
       </div>
     </div>
   </div>
@@ -52,13 +52,13 @@
 
   <!-- ===== FOOTER BOTTOM ===== -->
   <div class="bg-[#303030]">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 px-5 py-[60px] max-w-[1746px] mx-auto">
+    <div class="flex flex-col md:flex-row px-5 justify-between max-w-[1746px] mx-auto pt-5 pb-5 md:pt-12 md:pb-16">
 
       <!-- контакты -->
       <div class="font-montserrat">
         <h1 class="text-[55px] font-semibold text-white">Фуршет</h1>
 
-        <div class="flex flex-col gap-5 mb-9 text-white">
+        <div class="flex flex-col gap-5 mb-5 md:mb-9 text-white">
           <p class="text-[22px]">г. Вологда, ул. Фуршетная</p>
           <p class="text-[18px] text-[#595959]">Ежедневно 24/7</p>
           <p class="text-[18px] text-[#595959]">Поддержка с 10:00 до 21:00</p>
@@ -89,7 +89,7 @@
       <div class="font-montserrat text-[#595959]">
         <h1 class="text-xl w-full border-b border-[#5F6577] mb-2 pb-2 text-white">Помощь</h1>
 
-        <div class="flex flex-col gap-7 md:flex-row justify-between">
+        <div class="flex flex-col gap-4 md:flex-row justify-between">
           <ul class="flex flex-col gap-4">
             <li>Оплата</li>
             <li>Гарантия качества</li>
@@ -105,7 +105,7 @@
       </div>
 
       <!-- телефон -->
-      <div class="font-montserrat text-white text-lg md:text-2xl">
+      <div class="font-montserrat text-white mt-5 text-lg md:text-2xl">
         <h1 class="mb-3">+7 (817) 393-47-47</h1>
         <h1>furshet@gmail.com</h1>
       </div>

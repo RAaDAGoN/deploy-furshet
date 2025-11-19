@@ -5,21 +5,42 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/fonts/MontserratAlternates-Regular.ttf') format('truetype');
-    font-weight: normal;
+    src: url('/fonts/Montserrat/MontserratAlternates-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat/MontserratAlternates-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat/MontserratAlternates-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat/MontserratAlternates-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('/fonts/Comfortaa-Light.ttf') format('truetype');
+    src: url('/fonts/Comforta/Comfortaa-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('/fonts/Comfortaa-Regular.ttf') format('truetype');
+    src: url('/fonts/Comforta/Comfortaa-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -27,21 +48,21 @@
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('/fonts/Comfortaa-Medium.ttf') format('truetype');
+    src: url('/fonts/Comforta/Comfortaa-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('/fonts/Comfortaa-SemiBold.ttf') format('truetype');
+    src: url('/fonts/Comforta/Comfortaa-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('/fonts/Comfortaa-Bold.ttf') format('truetype');
+    src: url('/fonts/Comforta/Comfortaa-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }

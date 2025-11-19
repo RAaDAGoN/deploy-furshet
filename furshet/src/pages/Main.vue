@@ -3,11 +3,11 @@
 
     <Slider />
 
-    <Content />
+    <Content1 />
 
     <BlockMenu />
 
-    <div class="bg-[#30592A80] max-w-[1746px] mx-auto  mt-[213px] relative ">
+    <div class="bg-[#30592A80] mt-[213px] relative ">
       <div class="max-w-[1755px] mx-auto flex flex-col justify-start ">
         <div class="text-white sm:px-5 py-6">
           <h1 class="font-comfort font-semibold text-2xl md:text-5xl">Не знаете что выбрать?</h1>
@@ -20,9 +20,9 @@
 
     </div>
 
-    <Content />
+    <Content2 />
 
-    <Content />
+    <Content3 />
 
     <Footer />
   </div>
@@ -32,10 +32,12 @@
 
 import Header from "@/components/Header.vue";
 import Slider from "@/components/main/Slider.vue";
-import Content from "@/components/main/Content.vue";
+import Content1 from "@/components/main/Content1.vue";
 import BlockMenu from "@/components/main/BlockMenu.vue";
 import Footer from "@/components/Footer.vue";
 import Button from "@/components/ui/Button.vue";
+import Content2 from "@/components/main/Content2.vue";
+import Content3 from "@/components/main/Content3.vue";
 
 
 </script>
