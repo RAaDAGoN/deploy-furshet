@@ -3,7 +3,7 @@
 
     <Slider />
 
-<!--    <Content />-->
+    <Content />
 
 <!--    <BlockMenu />-->
 

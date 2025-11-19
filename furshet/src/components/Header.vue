@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-[#30592A] text-white fixed top-0 left-0 right-0 w-full z-50" >
+  <header class="bg-[#97AB94] text-white fixed top-0 left-0 right-0 w-full z-50" >
     <div class="border-b border-white border-opacity-50 hidden md:block ">
       <ul class="max-w-[1746px] mx-auto py-[10px] flex items-center justify-center gap-12 lg:justify-end sm:text-lg w-full font-montserrat font-normal px-4 sm:px-5">
         <li>Вологда</li>
