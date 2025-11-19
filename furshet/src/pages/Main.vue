@@ -5,26 +5,26 @@
 
     <Content />
 
-<!--    <BlockMenu />-->
+    <BlockMenu />
 
-<!--    <div class="bg-[#30592A80] px-[85px] py-[23px] mt-[213px] relative ">-->
-<!--      <div class="max-w-[1755px] mx-auto flex flex-col justify-start ">-->
-<!--        <div >-->
-<!--          <h1 class="font-comfort font-semibold text-5xl text-white">Не знаете что выбрать?</h1>-->
-<!--          <p class="font-montserrat text-2xl text-[#EDEDED]">Поможем выбрать фуршетные боксы, которые понравятся всем!</p>-->
-<!--          <button class="outline-none border-transparent bg-white w-[298px] h-[60px] cursor-pointer font-montserrat font-semibold text-[#608067] mt-[20px]">Заказать звонок</button>-->
-<!--        </div>-->
+    <div class="bg-[#30592A80] max-w-[1746px] mx-auto  mt-[213px] relative ">
+      <div class="max-w-[1755px] mx-auto flex flex-col justify-start ">
+        <div class="text-white sm:px-5 py-6">
+          <h1 class="font-comfort font-semibold text-2xl md:text-5xl">Не знаете что выбрать?</h1>
+          <p class="font-montserrat text-base md:text-2xl">Поможем выбрать фуршетные боксы, которые понравятся всем!</p>
+          <Button class="mt-[30px]" title="Заказать звонок"/>
+        </div>
 
-<!--        <img class="absolute bottom-0 right-0 z-10" src="/image/Food.png" alt="Food">-->
-<!--      </div>-->
+        <img class="md:absolute bottom-0 right-0 z-10 " src="/image/Food.png" alt="Food">
+      </div>
 
-<!--    </div>-->
+    </div>
 
-<!--    <Content />-->
+    <Content />
 
-<!--    <Content />-->
+    <Content />
 
-<!--    <Footer />-->
+    <Footer />
   </div>
 </template>
 
@@ -35,6 +35,7 @@ import Slider from "@/components/main/Slider.vue";
 import Content from "@/components/main/Content.vue";
 import BlockMenu from "@/components/main/BlockMenu.vue";
 import Footer from "@/components/Footer.vue";
+import Button from "@/components/ui/Button.vue";
 
 
 </script>

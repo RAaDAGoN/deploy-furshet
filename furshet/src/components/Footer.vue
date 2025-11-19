@@ -5,7 +5,7 @@
       <img
           src="/image/Food2.png"
           alt="Slide 1"
-          class="w-full"
+          class="w-full h-full"
       />
     </div>
 
@@ -13,14 +13,14 @@
     <div class="absolute inset-0 bg-black/30"></div>
 
     <!-- Контент -->
-    <div class="relative flex items-center max-w-[1755px] mx-auto py-[55px]">
-      <div class="max-w-[1020px]">
-        <h1 class="text-white text-left text-[55px] font-comfort font-semibold mb-6 leading-[110%]">
-          Важное событие,
+    <div class="relative flex items-center max-w-[1746px] px-5 sm:px-5 mx-auto py-14">
+      <div class="max-w-[844px]">
+        <h1 class="text-white text-left text-[45px] font-comfort font-bold mb-6 leading-[140%]">
+          Важное событие,<br/>
           но не знаете как рассчитать?
         </h1>
         <p class="text-white text-2xl font-medium font-montserrat leading-[140%]">
-          Заполните заявку и мы поможем рассчитать меню для вашего мероприятия
+          Заполните заявку и мы поможем рассчитать<br/>меню для вашего мероприятия
         </p>
 
         <form class="font-montserrat mt-[40px]" action="">
@@ -28,23 +28,22 @@
             <input class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
                    placeholder="Ваше имя" type="text">
             <input class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
-                   placeholder="Телефон" type="number">
+                   placeholder="Телефон" type="text">
           </div>
           <div class="flex gap-7">
             <input class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
-                   placeholder="Количество человек" type="number">
+                   placeholder="Количество человек" type="text">
             <input class="outline-none border-b border-[#E4E4E480] bg-transparent pl-[20px] pb-[12px]  text-white"
                    placeholder="Дата" type="text">
           </div>
         </form>
 
-        <button
-            class="outline-none border-transparent bg-white w-[298px] h-[60px] cursor-pointer font-montserrat font-semibold text-[#608067] mt-[20px]">
-          Отправить заявку
-        </button>
+        <Button class="mt-10" title="Отправить заявку" />
 
       </div>
     </div>
+
+
   </div>
 
   <div class="bg-[#303030] px-[82px] pt-[50px] pb-[70px]">
@@ -105,4 +104,5 @@
 
 <script setup>
 
+import Button from "@/components/ui/Button.vue";
 </script>
