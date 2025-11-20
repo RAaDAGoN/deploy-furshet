@@ -38,6 +38,7 @@ import Footer from "@/components/Footer.vue";
 import Button from "@/components/ui/Button.vue";
 import Content2 from "@/components/main/Content2.vue";
 import Content3 from "@/components/main/Content3.vue";
+import Breadcrumbs from "@/components/Breadcrumbs.vue";
 
 
 </script>

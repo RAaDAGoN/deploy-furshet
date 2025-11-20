@@ -5,7 +5,7 @@
 
     <Header :menuOpen="menuOpen" @openMenu="openMenu" @closeMenu="closeMenu"/>
 
-    <div class="">
+    <div class="mt-[55px] md:mt-[120px]" >
       <router-view></router-view>
     </div>
 

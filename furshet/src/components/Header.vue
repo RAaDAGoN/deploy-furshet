@@ -9,11 +9,11 @@
     </div>
 
     <div class="max-w-[1746px] mx-auto py-[10px] flex justify-between items-center px-4 sm:px-5">
-      <h1 class="font-comfort font-normal text-xl sm:text-2xl lg:text-4xl xl:text-5xl ">Фуршет</h1>
+      <router-link to="/" class="font-comfort font-normal text-xl sm:text-2xl lg:text-4xl xl:text-5xl ">Фуршет</router-link>
 
       <div class="flex flex-1 justify-end items-center gap-4">
         <ul class="hidden md:flex items-center justify-end gap-2 font-montserrat font-semibold text-sm md:gap-2 md:text-lg lg:text-xl lg:gap-6">
-          <li>О нас</li>
+          <router-link to="/about">О нас</router-link>
           <li>Меню</li>
           <li>Доставка</li>
           <li>Контакты</li>
