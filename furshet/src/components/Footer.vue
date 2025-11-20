@@ -17,7 +17,7 @@
         </p>
 
         <form class="font-montserrat mt-[40px] ">
-          <div class="flex flex-col md:flex-row gap-5 mb-[30px] text-[16px] md:text-[18px]">
+          <div class="flex flex-col ju md:flex-row gap-5 mb-[30px] text-[16px] md:text-[18px]">
             <input
                 name="userName"
                 class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
@@ -30,7 +30,7 @@
             />
           </div>
 
-          <div class="flex flex-col md:flex-row gap-7">
+          <div class="flex flex-col ju md:flex-row gap-5 mb-[30px] text-[16px] md:text-[18px]">
             <input
                 name="userCount"
                 class="outline-none border-b border-white/40 bg-transparent pl-5 pb-3 text-white placeholder-white/70"
@@ -65,12 +65,12 @@
         </div>
 
         <div class="hidden md:flex gap-4 items-center">
-          <img src="/image/icons/VK.png" class="w-8 h-8 object-contain" />
-          <img src="/image/icons/Odnokl.png" class="w-8 h-8 object-contain" />
-          <img src="/image/icons/Dzen.png" class="w-8 h-8 object-contain" />
-          <img src="/image/icons/Telegram.png" class="w-8 h-8 object-contain" />
-          <img src="/image/icons/Watsup.png" class="w-8 h-8 object-contain" />
-          <img src="/image/icons/Wiber.png" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/vk.svg" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/ok.svg" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/dzen.svg" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/telegram.svg" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/whatsapp.svg" class="w-8 h-8 object-contain" />
+          <img src="/image/icons/viber.svg" class="w-8 h-8 object-contain" />
         </div>
       </div>
 

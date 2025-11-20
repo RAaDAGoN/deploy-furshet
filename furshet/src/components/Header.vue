@@ -14,18 +14,18 @@
       <div class="flex flex-1 justify-end items-center gap-4">
         <ul class="hidden md:flex items-center justify-end gap-2 font-montserrat font-semibold text-sm md:gap-2 md:text-lg lg:text-xl lg:gap-6">
           <router-link to="/about">О нас</router-link>
-          <li>Меню</li>
-          <li>Доставка</li>
-          <li>Контакты</li>
+          <router-link to="/menu">Меню</router-link>
+          <router-link to="/delivery">Доставка</router-link>
+          <router-link to="/contacts">Контакты</router-link>
         </ul>
 
         <img class="mx-[25px]" src="/image/icons/cart.svg" alt="cart">
 
         <div v-auto-animate>
-          <img v-if="!menuOpen" class="md:hidden" src="/image/icons/Burger.svg" alt="Menu1"
+          <img v-if="!menuOpen" class="md:hidden" src="/image/icons/burger.svg" alt="Menu1"
                @click="()=> emit('openMenu')">
 
-          <img v-else class="md:hidden" src="/image/icons/BurgerClose.svg" alt="Menu2" @click="()=> emit('closeMenu')">
+          <img v-else class="md:hidden" src="/image/icons/closeBurger.svg" alt="Menu2" @click="()=> emit('closeMenu')">
         </div>
 
 

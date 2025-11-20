@@ -5,11 +5,11 @@
 
     <Header :menuOpen="menuOpen" @openMenu="openMenu" @closeMenu="closeMenu"/>
 
-    <div class="mt-[55px] md:mt-[120px]" >
+    <div class="mt-[55px] md:mt-[135px]" >
       <router-view></router-view>
     </div>
 
-
+    <Footer />
   </div>
 </template>
 
@@ -20,6 +20,7 @@
 import {provide, ref} from "vue";
 import MobileMenu from "@/components/MobileMenu.vue";
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 
 const menuOpen = ref(false)
 

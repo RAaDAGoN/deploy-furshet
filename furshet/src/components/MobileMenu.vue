@@ -8,17 +8,16 @@
     </ul>
 
     <ul class="flex flex-col items-center gap-6 text-lg font-montserrat font-semibold lg:gap-12 md:gap-8 mt-12 ">
-      <li>О нас</li>
-      <li>Меню</li>
-      <li>Доставка</li>
-      <li>Контакты</li>
+      <router-link to="/about">О нас</router-link>
+      <router-link to="/menu">Меню</router-link>
+      <router-link to="/delivery">Доставка</router-link>
+      <router-link to="/contacts">Контакты</router-link>
     </ul>
 
   </div>
 </template>
 
 <script setup>
-import Button from "@/components/ui/Button.vue";
 
 
 const emit = defineEmits(["closeMenu"]);

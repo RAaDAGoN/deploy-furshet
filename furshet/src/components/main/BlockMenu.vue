@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-[#EBF0E8]">
+
     <div class="max-w-[1746px] mx-auto sm:px-5 py-[34px] md:py-[84px]">
 
       <div class="flex flex-col md:flex-row md:items-center max-w-[1755px] mx-auto mb-[30px]">
         <h1 class="text-[#97AB94] font-comfort text-[28px] md:text-5xl mr-7 leading-[130%]">МЕНЮ</h1>
-        <p class="font-montserrat text-[#3C3C3C] font-medium text-xl md:text-xl leading-[130%]">Ознакомьтесь с нашим разнообразным меню для вашего фуршетного стола</p>
+        <p class="font-montserrat text-[#3C3C3C] font-medium text-xl md:text-xl leading-[130%]">{{ title }}</p>
       </div>
 
 <!--      <div class="grid grid-cols-2 grid-rows-4 md:grid-cols-4 md:grid-rows-2 gap-5 md:gap-11 h-full text-base font-comfort font-medium text-white md:text-4xl">-->
@@ -108,10 +108,12 @@
 
       </div>
     </div>
-  </div>
+
 
 </template>
 
 <script setup>
-
+defineProps({
+  title: String,
+})
 </script>

@@ -1,12 +1,13 @@
 <template>
   <div>
 
-    <Slider />
+    <Slider/>
 
-    <Content1 />
+    <Content1/>
 
-    <BlockMenu />
-
+    <div class="bg-[#EBF0E8]">
+      <BlockMenu title="Ознакомьтесь с нашим разнообразным меню для вашего фуршетного стола"/>
+    </div>
     <div class="bg-[#30592A80] mt-[213px] relative ">
       <div class="max-w-[1755px] mx-auto flex flex-col justify-start ">
         <div class="text-white sm:px-5 py-6">
@@ -20,25 +21,20 @@
 
     </div>
 
-    <Content2 />
+    <Content2/>
 
-    <Content3 />
+    <Content3/>
 
-    <Footer />
+
   </div>
 </template>
 
 <script setup>
 
-import Header from "@/components/Header.vue";
 import Slider from "@/components/main/Slider.vue";
 import Content1 from "@/components/main/Content1.vue";
 import BlockMenu from "@/components/main/BlockMenu.vue";
-import Footer from "@/components/Footer.vue";
 import Button from "@/components/ui/Button.vue";
 import Content2 from "@/components/main/Content2.vue";
 import Content3 from "@/components/main/Content3.vue";
-import Breadcrumbs from "@/components/Breadcrumbs.vue";
-
-
 </script>

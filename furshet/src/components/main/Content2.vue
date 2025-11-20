@@ -32,7 +32,7 @@
           </div>
 
           <div class="md:flex items-center justify-center">
-            <h1 class="font-comfort font-semibold text-[#97AB94] text-2xl flex justify-center items-center gap-[15px]">Заказать доставку <img width="36" height="15" src="/image/icons/Arrow.png" alt="Next arrow"></h1>
+            <h1 class="font-comfort font-semibold text-[#97AB94] text-2xl flex justify-center items-center gap-[15px]">Заказать доставку <img width="36" height="15" src="/image/icons/arrow.svg" alt="Next arrow"></h1>
           </div>
 
         </div>
