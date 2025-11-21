@@ -19,7 +19,7 @@
           <router-link to="/contacts">Контакты</router-link>
         </ul>
 
-        <img class="mx-[25px]" src="/image/icons/cart.svg" alt="cart">
+        <router-link to="/cart" ><img class="mx-[25px]" src="/image/icons/cart.svg" alt="cart"></router-link>
 
         <div v-auto-animate>
           <img v-if="!menuOpen" class="md:hidden" src="/image/icons/burger.svg" alt="Menu1"

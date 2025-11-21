@@ -6,7 +6,7 @@
       <div class="flex flex-col gap-5 w-full md:min-w-[340px] md:max-w-[500px]">
         <h1 class="font-comfort font-bold text-4xl md:text-[60px] text-[#97AB94] mb-6 md:mb-10">Контакты</h1>
 
-        <h1 class="font-comfort font-bold text-2xl md:text-[45px] text-[#97AB94] border-b-[1.5px] pb-3 md:pb-5 border-[#97AB94]">г. Вологда</h1>
+        <h1 class="font-comfort font-bold text-2xl md:text-[45px] border-b-[1.5px] pb-3 md:pb-5 border-[#3C3C3C]">г. Вологда</h1>
 
         <ul class="flex flex-col gap-4 md:gap-6 text-lg md:text-2xl">
           <li>ул. Фуршетная, 2, оф. 55</li>

@@ -10,6 +10,7 @@ import AboutUs from "@/pages/AboutUs.vue";
 import Menu from "@/pages/Menu.vue";
 import Delivery from "@/pages/Delivery.vue";
 import Contacts from "@/pages/Contacts.vue";
+import Cart from "@/pages/Cart.vue";
 
 const app = createApp(App)
 
@@ -19,6 +20,7 @@ const routes = [
     { path: '/menu', component: Menu, name: 'Menu', meta: { breadcrumb: 'Меню'} },
     { path: '/delivery', component: Delivery, name: 'Delivery', meta: { breadcrumb: 'Доставка'} },
     { path: '/contacts', component: Contacts, name: 'Contacts', meta: { breadcrumb: 'Контакты'} },
+    { path: '/cart', component: Cart, name: 'Cart', meta: { breadcrumb: 'Корзина'} },
 ]
 
 export const router = createRouter({
